@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '@/views/home'// 用简写的形式替换原来的形式
 // import Home from '../views/Home.vue'
+import Login from '@/views/login'// 引入登录页
 
 Vue.use(VueRouter)
 
@@ -13,6 +14,11 @@ const routes = [{
   path: '/home',
   name: 'Home',
   component: Home
+},
+{
+  path: '/login',
+  component: Login,
+  name: 'login'
 }
   // { // 按需加载
   //   path: '/about',
