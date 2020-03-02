@@ -70,7 +70,7 @@ export default {
   },
   methods: {
     login () {
-      //    this.$refs.loginForm 获取的就是el-form的对象实例
+      //    this.$refs.loginForm 获取的就是el-form的对象实例的
       this.$refs.loginForm.validate().then(() => {
 
       })
