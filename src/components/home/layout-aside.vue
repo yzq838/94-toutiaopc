@@ -5,7 +5,7 @@
          <img src="../../assets/img/logo_admin.png" alt="">
      </div>
      <!-- 导航菜单 开启路由模式 :router="true"(完整模式) router(简写模式)  -->
-     <el-menu router background-color="#323745" text-color="#adafb5">
+     <el-menu :router="true" background-color="#323745" text-color="#adafb5">
          <!-- 子菜单 没有子菜单的 用 el-menu-item标签 -->
          <el-menu-item index='/home'>
              <i class='el-icon-s-home'></i>
